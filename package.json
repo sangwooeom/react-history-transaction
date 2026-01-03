@@ -1,0 +1,40 @@
+{
+  "name": "react-history-transaction",
+  "version": "0.0.1",
+  "description": "Transactional browser history synchronization for React state-driven UI navigation.",
+  "type": "module",
+  "main": "./dist/react-history-transaction.cjs.js",
+  "module": "./dist/react-history-transaction.es.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/react-history-transaction.es.js",
+      "require": "./dist/react-history-transaction.cjs.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@testing-library/react": "^16.3.1",
+    "@types/react": "^19.2.7",
+    "jsdom": "^27.4.0",
+    "rollup": "^4.54.0",
+    "rollup-plugin-dts": "^6.3.0",
+    "tslib": "^2.8.1",
+    "vitest": "^4.0.16"
+  }
+}
