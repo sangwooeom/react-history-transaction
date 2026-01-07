@@ -1,6 +1,6 @@
 {
   "name": "react-history-transaction",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "Transactional browser history synchronization for React state-driven UI navigation.",
   "type": "module",
   "main": "./dist/react-history-transaction.cjs.js",
@@ -16,7 +16,8 @@
   },
   "sideEffects": false,
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w"
   },
   "author": "",
   "license": "MIT",

@@ -1,3 +1,4 @@
 export * from './history/useHistoryState';
-export * from './history/HistoryTransactionProvider';
-export * from './history/useHistoryTransactionRunner';
+export * from './history/HistoryCoordinator';
+export * from './history/withHistoryTransction';
+export * from './history/bindHistoryState';
