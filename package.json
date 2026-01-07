@@ -2,6 +2,7 @@
   "name": "react-history-transaction",
   "version": "0.2.0",
   "description": "Transactional browser history synchronization for React state-driven UI navigation.",
+  "repository": "https://github.com/sangwooeom/react-history-transaction",
   "type": "module",
   "main": "./dist/react-history-transaction.cjs.js",
   "module": "./dist/react-history-transaction.es.js",
